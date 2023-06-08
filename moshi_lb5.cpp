@@ -139,7 +139,7 @@ void printrozclad(srozclad& rozclad) {
         for (int j = 0; j < nday; ++j) {
             cout << " day " << j + 1 << endl;
             for (int z = 0; z < nlesson; ++z) {
-                cout << " lesson " << z + 1 << " - subject " << rozclad.clas[i].day[j].lesson[z].subject + 1 << " - teacher " << rozclad.clas[i].day[j].lesson[z].teacher + 1 << endl;
+                cout << " lesson " << z + 1 << " - subject " << rozclad.clas[i].day[j].lesson[z].subject + 1 << " in class " << rozclad.clas[i].day[j].lesson[z].subject + 1 << " - teacher " << rozclad.clas[i].day[j].lesson[z].teacher + 1 << endl;
             }
         }
     }
